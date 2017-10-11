@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<link rel="stylesheet" href="style.css"/>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form method="get" action="process.php">
+			<fieldset>
+				<legend> Login </legend>
+				<p>
+					<label> Name: </label>
+					<input type="text" name="name"/>
+				</p>
+				<p>
+					<label> Password: </label>
+					<input type="password" name="password" />
+				</p>
+				<p>
+					<label> Quick Biography: </label>
+					<br/>
+					<textarea rows="4"> </textarea>
+				</p>
+				
+				<p>
+					<label> Email: </label>
+					<input type="email" name="email" />
+				</p>
+				
+				<p>
+					<label> Date: </label>
+					<input type="date" name="date" />
+				</p>
+				
+				<p>
+					Favourite Sci-Fi World <br/>
+					<label> Select: </label>
+					<select name="choices">
+						<option value="1"> </option>
+						<option value="1"> </option>
+						<option value="1"> </option>
+						<option value="1"> </option>
+						<option value="1"> </option>
+					</select>
+				</p>
+				
+				<p>
+					<label> Class Standing: </label> <br/>
+					<input type="radio" name="class" value="1"> Freshman <br/>	
+					<input type="radio" name="class" value="2"> Sophomore <br/>	
+					<input type="radio" name="class" value="3"> Junior <br/>	
+					<input type="radio" name="class" value="4"> Senior 
+				
+				<p>
+					<label>  </label>
+					<input type="checkbox" name="" value=""> <br/>
+					<input type="checkbox" name="" value=""> <br/>
+				</p>
+				
+				
+				<input type="submit" /> <input type="reset" />
+			</fieldset>
+		</form>
+	</body>
+</html>
