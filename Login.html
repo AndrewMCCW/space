@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head lang="en">
-		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="loginstyle.css"/>
 		<meta charset="utf-8">
 	</head>
 	<body>
+		
+		<div id="left-column">
+			<body>
+				<p>
+					I should be on the left.
+				</p> 
+			</body>
+		</div>
+		
 		<form method="get" action="process.php">
 			<fieldset>
-				<legend> Login </legend>
+				<legend> Sign-Up </legend>
 				<p>
 					<label> Name: </label>
 					<input type="text" name="name"/>
@@ -36,11 +45,11 @@
 					Favourite Sci-Fi World <br/>
 					<label> Select: </label>
 					<select name="choices">
-						<option value="1"> </option>
-						<option value="1"> </option>
-						<option value="1"> </option>
-						<option value="1"> </option>
-						<option value="1"> </option>
+						<option value="1"> Star Wars </option>
+						<option value="2"> Star Trek </option>
+						<option value="3"> Mass Effect </option>
+						<option value="4"> Blade Runner </option>
+						<option value="5"> Ghost in the Shell </option>
 					</select>
 				</p>
 				
@@ -52,14 +61,30 @@
 					<input type="radio" name="class" value="4"> Senior 
 				
 				<p>
-					<label>  </label>
-					<input type="checkbox" name="" value=""> <br/>
-					<input type="checkbox" name="" value=""> <br/>
+					<label> What's your favourite constellation/s? </label> </br>
+					<input type="checkbox" name="cassopeia" value="1"> Cassopeia <br/>
+					<input type="checkbox" name="orion" value="2"> Orion <br/>
+					<input type="checkbox" name="ursa-major" value="3"> Ursa Major<br/>
+					<input type="checkbox" name="gemini" value="4"> Gemini <br/>
+					<input type="checkbox" name="hercules" value="5"> Hercules <br/>
+					<input type="checkbox" name="leo" value="6"> Leo <br/>
+					<input type="checkbox" name="ophiuchus" value="7"> Ophiuchus <br/>
+					<input type="checkbox" name="leo" value="8"> Leo <br/>
+					<input type="checkbox" name="sagittarius" value="9"> Sagittarius <br/>
 				</p>
 				
 				
 				<input type="submit" /> <input type="reset" />
 			</fieldset>
 		</form>
+		
+		
+		<div id="right-column">
+			<body>
+				<p>
+					I should be on the right.
+				</p>
+			</body>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,37 @@
+p 
+{
+	max-width: 100px;
+	color: white;
+}
+
+p label 
+{
+	max-width: 200px;
+}
+
+#left-column 
+{
+	background-color: red;
+	float: left;
+	width: 25%;
+}
+
+form 
+{
+	float: left;
+	width: 50%;
+	max-width: 500px;
+	background-image: url("images/Galaxy.jpg");
+}
+
+#right-column 
+{
+	background-color: blue;
+	float: left;
+	width: 25%;
+}
+
+legend 
+{
+	color: silver;
+}
