@@ -12,7 +12,6 @@ p label
 #left-column 
 {
 	background-image: url("images/The Martian.jpg");
-	padding: 0px 0px 0px 0px;
 	float: left;
 	width: 25%;
 }
@@ -81,4 +80,34 @@ a:hover
 body
 {
 	background-image: url("images/mars.jpg");
+}
+
+@media only screen and (max-width: 480px)
+{
+	
+	nav a
+	{
+	font-family: 'Indie Flower', cursive;
+	color: gray;
+	text-decoration: none;
+	padding: 8px 8px 8px 8px;
+	}
+
+	nav li 
+	{
+	display: inline;
+	padding: 20px;
+	}
+
+	nav ul
+	{
+	list-style: none;
+	text-decoration: none;
+	}
+
+	nav
+	{
+	background-color: #00d5ff;
+	border-radius: 8px;
+	}
 }
