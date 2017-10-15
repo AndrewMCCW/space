@@ -11,7 +11,7 @@ p label
 
 #left-column 
 {
-	background-color: red;
+	background-image: url("images/The Martian.jpg");
 	float: left;
 	width: 25%;
 }
@@ -20,13 +20,17 @@ form
 {
 	float: left;
 	width: 50%;
-	max-width: 500px;
 	background-image: url("images/Galaxy.jpg");
+}
+
+fieldset 
+{
+	margin: auto;
 }
 
 #right-column 
 {
-	background-color: blue;
+	background-image: url("images/mass effect.jpg");
 	float: left;
 	width: 25%;
 }
@@ -34,4 +38,28 @@ form
 legend 
 {
 	color: silver;
+}
+
+nav a
+{
+	font-family: 'Indie Flower', cursive;
+	color: gray;
+	text-decoration: none;
+}
+
+nav ul
+{
+	list-style: none;
+	text-decoration: none;
+}
+
+nav
+{
+	background-color: #00d5ff;
+	border-radius: 8px;
+}
+
+a:hover
+{
+	color:yellow;
 }
