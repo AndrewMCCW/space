@@ -14,17 +14,20 @@ p label
 	background-image: url("images/The Martian.jpg");
 	float: left;
 	width: 25%;
+	padding-top: 0px;
+	padding-bottom: 50px;
 }
 
-form 
+#mid-column 
 {
 	float: left;
 	width: 50%;
 	background-image: url("images/Galaxy.jpg");
 }
 
-fieldset 
+form
 {
+	padding-top: 5px;
 	margin: auto;
 }
 
@@ -33,6 +36,8 @@ fieldset
 	background-image: url("images/mass effect.jpg");
 	float: left;
 	width: 25%;
+	padding-top: 0px;
+	padding-bottom: 857px;
 }
 
 legend 
@@ -40,8 +45,14 @@ legend
 	color: silver;
 }
 
+header
+{
+	padding-bottom: 10px;
+}
+
 header h1 
 {
+	text-align: center;
 	color: white;
 	font-family: 'Indie Flower', cursive;
 }
@@ -81,33 +92,54 @@ body
 {
 	background-image: url("images/mars.jpg");
 }
-
-@media only screen and (max-width: 480px)
+@media screen and (max-width: 600px)
 {
+	#left-column
+	{
+		width: auto;
+		float: none;
+	}
 	
-	nav a
+	#mid-column
 	{
-	font-family: 'Indie Flower', cursive;
-	color: gray;
-	text-decoration: none;
-	padding: 8px 8px 8px 8px;
+		width: auto;
+		float: none;
+		margin-left: 0px;
 	}
-
-	nav li 
+	
+	#right-column
 	{
-	display: inline;
-	padding: 20px;
+		width: auto;
+		float: none;
+		display: none;
 	}
-
-	nav ul
+	
+	#untitled
 	{
-	list-style: none;
-	text-decoration: none;
+		display: none;
 	}
-
-	nav
+	
+	nav a 
 	{
-	background-color: #00d5ff;
-	border-radius: 8px;
+		padding: none;
+	}
+	
+	nav ul 
+	{
+		border-radius: 8px;
+		padding: 20px;
+	}
+	
+	nav li
+	{
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	header, #left-column, #mid-column, #right-column
+	{
+		margin-bottom: 5px;
 	}
 }
